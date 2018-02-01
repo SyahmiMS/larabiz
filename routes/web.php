@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-Route::resource('listing','ListingController');
+Route::resource('listings','ListingController');
 Route::get('/dashboard', 'DashboardController@index')->name('home');

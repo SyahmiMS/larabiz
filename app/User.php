@@ -28,7 +28,7 @@ class User extends Authenticatable
     ];
 
  //add one to many
- public function listing(){
+ public function listings(){
    return $this->hasMany('App\Listing');
  }
 
